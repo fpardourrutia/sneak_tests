@@ -4,7 +4,7 @@ library("httr")
 library("xml2")
 library("jsonlite")
 
-# Possible bug: when sending SNL from a normal address to a stealth address,
+# Possible bug: when sending SNK from a normal address to a stealth address,
 # the sender's address balance might not be updated properly
 
 ## 0. Config:
